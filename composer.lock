@@ -1,0 +1,80 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "1df7b68d453a58bd6cfd8bd0f3f91e0b",
+    "packages": [
+        {
+            "name": "spip/archiviste",
+            "version": "0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://git-spip.lerebooteux.fr/spip/archiviste.git",
+                "reference": "4927c43b4f8252639ff15d89e0f93d92520d00ca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://composer-spip.lerebooteux.fr/files/spip/archiviste/spip-archiviste-0.3.0-c93420.zip",
+                "reference": "4927c43b4f8252639ff15d89e0f93d92520d00ca",
+                "shasum": "49245ab9115d48b57d0fe509bd01dc46234c7d36"
+            },
+            "type": "spip-plugin",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.3.x-dev"
+                }
+            },
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Collectif SPIP",
+                    "email": "spip-dev@rezo.net"
+                }
+            ],
+            "description": "Gérer des archives de fichiers Zip, Tar, ...",
+            "time": "2018-06-07T21:41:37+00:00"
+        },
+        {
+            "name": "spip/medias",
+            "version": "2.20.24",
+            "source": {
+                "type": "git",
+                "url": "https://git-spip.lerebooteux.fr/spip/medias.git",
+                "reference": "11c58cf7070a53eb2849331ef829ef222fe33ff2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://composer-spip.lerebooteux.fr/files/spip/medias/spip-medias-2.20.24-814b1e.zip",
+                "reference": "11c58cf7070a53eb2849331ef829ef222fe33ff2",
+                "shasum": "0e1e9ff4fb5b3cca8475ff0204800e4914bb400c"
+            },
+            "require": {
+                "spip/archiviste": "^0.3.0"
+            },
+            "type": "spip-plugin",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Collectif SPIP",
+                    "email": "spip-dev@rezo.net"
+                }
+            ],
+            "description": "Gestion des medias dans SPIP",
+            "time": "2018-06-07T05:58:21+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

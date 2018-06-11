@@ -1,0 +1,15 @@
+{
+    "name": "mediaspip/player",
+    "homepage": "https://player.mediaspip.net/documentation/",
+    "description": "Lecteur multimédia HTML5 pour MediaSPIP",
+    "type": "spip-plugin",
+    "license": "GPL-3.0-or-later",
+    "authors": [{
+        "name": "kent1",
+        "email": "kent1@arscenic.info",
+        "homepage": "http://www.kent1.info"
+    }],
+    "require": {
+        "spip/medias": "^2.11"
+    }
+}
